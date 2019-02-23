@@ -51,14 +51,14 @@ function promptUser(data) {
           console.log("Thank you for purchasing " + answer.stock_quantity 
           + " of item: " + answer.product_id + ". Your total is: $" + 
           (selectedItem.price * answer.stock_quantity) + "!");
+          promptUser(data);
+
         }
       )
-      connection.end();
-
     }
     else {
       console.log("There are not enough items to make that purchase!");
-      connection.end();
+      promptUser(data);
     }
   })
 
