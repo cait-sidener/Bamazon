@@ -76,7 +76,9 @@ function readProducts() {
       }).format(itm.price)
       console.log("ID: " + itm.id)
       console.log("Product Name: " + itm.product_name)
+      console.log("Department: " + itm.department_name)
       console.log("Price: " + price);
+      console.log("In Stock: " + itm.stock_quantity)
       console.log("-------------------------------------------")
     }
     promptUser(data);
