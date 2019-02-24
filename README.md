@@ -19,7 +19,7 @@ Once you have viewed the product list, write in the ID of the product you are in
 ## Good to Go
 If there is enough product of the quantity you suggested, your purchase will be made. The total cost will display and the quantity you chose will be deducted from its original amount. You will then be redirected to purchase another product.
 
-![Successful purchase response](images/successfulPurchase.png)
+![Successful purchase response](images/sucessfulPurchase.png)
 
 ## Uhhoh! Not Enough!
 If there is not enough product of the quantity you suggested, the program tells you as much and redirects you to the original question.
